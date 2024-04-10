@@ -1,0 +1,32 @@
+
+.movie-item-image {
+    height: 170px;
+    width: 130px;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .movie-item-image:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2);
+  }
+  
+  .movies-title{
+    font-size: 12px;
+    font-weight: 500;
+    max-width: 130px;
+    margin: 5px;
+  }
+  @media (max-width: 768px) {
+    .movie-item-image {
+      height: 150px;
+      width: 110px;
+    }.movies-title{
+        font-size: 10px;
+        font-weight: 500;
+        max-width: 110px;
+      }
+    
+  }

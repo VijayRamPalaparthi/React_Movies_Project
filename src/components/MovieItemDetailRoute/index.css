@@ -1,0 +1,112 @@
+.home-container{
+  background-color: grey;
+}
+.banner-image-container{
+  background-size: cover;
+  width: 95%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.banner-content-heading{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+}
+.banner-content-desc{
+  font-size: 10px;
+  font-style: normal;
+  color: #fff;
+}
+.banner-top-container{
+  display: flex;
+}
+.poster{
+  width: 130px;
+  border-radius: 5px;
+  height: 170px;
+  margin-right: 10px;
+}
+.rate{
+  font-size: 15px;
+  font-style: normal;
+  color: rgb(6, 45, 77);
+  font-family: 'HK Grotesk', sans-serif;
+}
+.date{
+  font-size: 10px;
+  font-style: normal;
+  color: #fff;
+  font-family: 'HK Grotesk', sans-serif;
+}
+.time {
+    color: #fff;
+    font-family: 'HK Grotesk', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .all-movie-detail-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .detail-1-container {
+    width: 200px;
+  }
+  .all-detail-heading {
+    color: #94a3b8;
+    font-family: 'HK Grotesk', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .all-detail-list {
+    list-style-type: none;
+    padding: 0px;
+  }
+  .list {
+    color: #fff;
+    font-family: 'HK Grotesk', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0px;
+  }
+  
+  .detail-movie-type {
+    color: #fff;
+    font-family: 'HK Grotesk', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-left: 10%;
+  }
+  .cast-list-container{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 98%;
+    margin: auto;
+  }
+  .cast-image{
+    height: 150px;
+    width: 120px;
+  }
+  .name{
+    font-size: 12px;
+    font-style: normal;
+    color: #fff;
+    max-width: 115px;
+    font-weight: 500;
+    margin: 4px;
+  }
